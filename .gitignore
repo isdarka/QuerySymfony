@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+.buildpath
+.project
+*.settings
+.settings/*
