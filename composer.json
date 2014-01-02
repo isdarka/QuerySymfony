@@ -1,0 +1,27 @@
+{
+    "name": "isdarka/query-symfony",
+    "description": "Query Symfony 2",
+    "homepage": "https://github.com/isdarka/QuerySymfony",
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "keywords": [
+        "isdarka",
+        "query"
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "isdarka/model-symfony": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Israel Ruiz",
+            "email": "musicogui@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Query\\": "src/"
+        }
+    }
+}
